@@ -29,7 +29,7 @@ de la clase `Todo`. En el método inicializador, inicialice el atributo `todos` 
 un diccionario vacío.
 6. En la clase `TodoBook`, defina un método de instancia `add_todo` que recibe los 
 parámetros `title (str)` y `description (str)` y retorna un valor de tipo `int`.
-En el cuerpo del método implemente el código necesario hacer lo siguiente:
+En el cuerpo del método implemente el código necesario para hacer lo siguiente:
    - Generar un id que sea igual al número de elementos en el diccionario `todos` más uno.
    - Crear un objeto de la clase `Todo`.
    - Agregar el objeto de la clase `Todo` al diccionario utilizando como clave el id generado.
