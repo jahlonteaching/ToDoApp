@@ -17,3 +17,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 addopts = "-rs"
+
+[tool.poetry.scripts]
+todo = "todo.app:main"
