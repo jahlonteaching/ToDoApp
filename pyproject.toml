@@ -1,22 +1,9 @@
-[tool.poetry]
-name = "todo"
+[project]
+name = "todoapp"
 version = "0.1.0"
-description = "A simple ToDo app"
-authors = ["Jesus Andres Hincapie <jahlon@gmail.com>"]
-license = "MIT"
+description = "A simple ToDo App"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-pytest = "^8.3.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.pytest.ini_options]
-addopts = "-rs"
-
-[tool.poetry.scripts]
-todo = "todo.app:main"
+requires-python = ">=3.10"
+dependencies = [
+    "pytest>=8.3.4",
+]
